@@ -1,0 +1,14 @@
+{
+  "name": "ytt-website",
+  "version": "1.0.0",
+  "description": "Yoga Teacher Training practice course information website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": ["yoga", "teacher-training", "website"],
+  "author": "Yoga Teacher in Training",
+  "license": "MIT",
+  "type": "module"
+}
