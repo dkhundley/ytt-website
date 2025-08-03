@@ -38,26 +38,13 @@ header h1 {
     font-style: italic;
 }
 
-/* Hero section */
-.hero {
-    background-color: white;
-    padding: 4rem 0;
+/* Images section */
+.photo-credit {
     text-align: center;
-    border-bottom: 1px solid #eee;
-}
-
-.hero h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    color: #4a5568;
-    font-weight: 300;
-}
-
-.lead {
-    font-size: 1.3rem;
+    font-style: italic;
     color: #666;
-    max-width: 600px;
-    margin: 0 auto;
+    margin-top: 1rem;
+    font-size: 0.9rem;
 }
 
 /* About section */
@@ -74,44 +61,138 @@ header h1 {
     font-weight: 300;
 }
 
-.expectations-grid {
+.what-to-expect-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.what-to-expect-content p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.what-to-expect-content p:last-child {
+    margin-bottom: 0;
+}
+
+/* Locations section */
+.locations {
+    padding: 5rem 0;
+    background-color: white;
+}
+
+.locations h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #4a5568;
+    font-weight: 300;
+}
+
+.locations-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.locations-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
-    margin-top: 2rem;
 }
 
-.expectation-card {
+.location-card {
+    background: #f7fafc;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.location-card:hover {
+    transform: translateY(-5px);
+}
+
+.location-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #667eea;
+    font-weight: 600;
+}
+
+.location-card p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* Schedule section */
+.schedule {
+    padding: 5rem 0;
+    background-color: #f7fafc;
+}
+
+.schedule h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #4a5568;
+    font-weight: 300;
+}
+
+.schedule-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem;
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.schedule-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.schedule-item {
     background: white;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.3s ease;
 }
 
-.expectation-card:hover {
-    transform: translateY(-5px);
-}
-
-.expectation-card h3 {
-    font-size: 1.5rem;
+.schedule-item h3 {
+    font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #667eea;
+    color: #764ba2;
+    font-weight: 600;
 }
 
-.expectation-card p {
+.schedule-item p {
     color: #666;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
-/* Details section */
-.details {
+/* Story section */
+.story {
     padding: 5rem 0;
     background-color: white;
 }
 
-.details h2 {
+.story h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 3rem;
@@ -119,27 +200,84 @@ header h1 {
     font-weight: 300;
 }
 
-.details-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+.story-content {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.detail-item {
-    text-align: center;
-    padding: 1.5rem;
+.story-item {
+    background: #f7fafc;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.detail-item h3 {
-    font-size: 1.3rem;
-    margin-bottom: 0.5rem;
-    color: #764ba2;
+.story-item:last-child {
+    margin-bottom: 0;
+}
+
+.story-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #667eea;
     font-weight: 600;
 }
 
-.detail-item p {
+.story-item p {
     color: #666;
-    font-size: 1.1rem;
+    line-height: 1.7;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* FAQs section */
+.faqs {
+    padding: 5rem 0;
+    background-color: #f7fafc;
+}
+
+.faqs h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #4a5568;
+    font-weight: 300;
+}
+
+.faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.faq-item:hover {
+    transform: translateY(-2px);
+}
+
+.faq-item:last-child {
+    margin-bottom: 0;
+}
+
+.faq-item h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #667eea;
+    font-weight: 600;
+}
+
+.faq-item p {
+    color: #666;
+    line-height: 1.7;
+    font-size: 1rem;
 }
 
 /* Images section */
@@ -232,20 +370,16 @@ footer p {
         font-size: 2rem;
     }
     
-    .hero h2 {
-        font-size: 1.8rem;
-    }
-    
-    .lead {
-        font-size: 1.1rem;
-    }
-    
-    .about h2, .details h2, .images h2, .contact h2 {
+    .about h2, .locations h2, .schedule h2, .story h2, .faqs h2, .images h2, .contact h2 {
         font-size: 2rem;
     }
     
-    .expectations-grid, .details-content {
+    .locations-grid, .schedule-content {
         grid-template-columns: 1fr;
+    }
+    
+    .what-to-expect-content {
+        padding: 2rem;
     }
     
     .container {
