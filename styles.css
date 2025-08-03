@@ -44,14 +44,14 @@ header h1 {
 
 /* Images section */
 .images {
-    padding: 120px 0;
+    padding: 80px 0;
     background-color: #fff;
 }
 
 .images h2 {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     color: #000;
     font-weight: 600;
     letter-spacing: -0.02em;
@@ -136,14 +136,14 @@ header h1 {
 
 /* About section */
 .about {
-    padding: 120px 0;
+    padding: 80px 0;
     background-color: #f8f8f8;
 }
 
 .about h2 {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     color: #000;
     font-weight: 600;
     letter-spacing: -0.02em;
@@ -168,14 +168,14 @@ header h1 {
 
 /* Locations section */
 .locations {
-    padding: 120px 0;
+    padding: 80px 0;
     background-color: #fff;
 }
 
 .locations h2 {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     color: #000;
     font-weight: 600;
     letter-spacing: -0.02em;
@@ -184,7 +184,7 @@ header h1 {
 .locations-intro {
     text-align: center;
     max-width: 800px;
-    margin: 0 auto 80px;
+    margin: 0 auto 60px;
     color: #333;
     font-size: 1.125rem;
     line-height: 1.7;
@@ -225,14 +225,14 @@ header h1 {
 
 /* Schedule section */
 .schedule {
-    padding: 120px 0;
+    padding: 80px 0;
     background-color: #f8f8f8;
 }
 
 .schedule h2 {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     color: #000;
     font-weight: 600;
     letter-spacing: -0.02em;
@@ -241,7 +241,7 @@ header h1 {
 .schedule-intro {
     text-align: center;
     max-width: 800px;
-    margin: 0 auto 80px;
+    margin: 0 auto 60px;
     color: #333;
     font-size: 1.125rem;
     line-height: 1.7;
@@ -283,14 +283,14 @@ header h1 {
 
 /* Story section */
 .story {
-    padding: 120px 0;
+    padding: 80px 0;
     background-color: #fff;
 }
 
 .story h2 {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     color: #000;
     font-weight: 600;
     letter-spacing: -0.02em;
@@ -328,14 +328,14 @@ header h1 {
 
 /* FAQs section */
 .faqs {
-    padding: 120px 0;
+    padding: 80px 0;
     background-color: #f8f8f8;
 }
 
 .faqs h2 {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     color: #000;
     font-weight: 600;
     letter-spacing: -0.02em;
@@ -378,7 +378,7 @@ header h1 {
 
 /* Contact section */
 .contact {
-    padding: 120px 0;
+    padding: 80px 0;
     background-color: #000;
     text-align: center;
     color: #fff;
@@ -474,7 +474,7 @@ footer p {
     }
     
     header, .images, .about, .locations, .schedule, .story, .faqs, .contact {
-        padding: 80px 0;
+        padding: 60px 0;
     }
     
     .location-card, .schedule-item, .story-item, .faq-item, .contact-info {
